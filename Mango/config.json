@@ -1,0 +1,25 @@
+/*
+|--------------------------------------------------------------------------
+| mangophp config json | Auther：顾杰
+|--------------------------------------------------------------------------
+|
+| Here is where your config
+|
+*/
+{
+  "app_name": "Mango",
+  "log_file": "../log/Mango.log", //http请求日志
+  "connections": {
+    "default": {                  //链接数据库
+      "driver": "mysql",
+      "host": "118.31.41.70",
+      "username": "root",
+      "password": "gj18362695424",
+      "port": "3306",
+      "name": "saas",
+      "charset": "utf8",
+      "collation": "utf8_general_ci",
+      "prefix": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "jacklovebella/mangophp",
+    "description": "a php framwork",
+    "type": "projeck",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "jack",
+            "email": "1217141780@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "^2.0@dev",
+        "symfony/http-foundation": "3.4.x-dev",
+        "nikic/fast-route": "dev-master",
+        "pimple/pimple": "^3.2@dev",
+        "hassankhan/config": "dev-master",
+        "illuminate/database": "5.5.x-dev",
+        "filp/whoops": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "Mango/classs"
+          ],
+        "psr-4": {
+            "Mango\\": "Mango/"
+        }
+    }
+}
